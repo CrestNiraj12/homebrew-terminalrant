@@ -3,7 +3,7 @@ cask "terminalrant" do
   name "terminalrant"
   desc "Rant space for developers who live in terminal"
   homepage "https://github.com/CrestNiraj12/terminalrant"
-  version "0.4.1"
+  version "0.4.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "terminalrant" do
     on_intel do
       url "https://github.com/CrestNiraj12/terminalrant/releases/download/v#{version}/terminalrant_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/CrestNiraj12/terminalrant/"
-      sha256 "1695bc1eda97a51c44c7f11507c72911bed235e0fab973d97cea109727e80140"
+      sha256 "e4ca0444cf21bd319f8dddf1087dd6e1d568c6e9a16d0aef2d93425a2ab29be5"
     end
     on_arm do
       url "https://github.com/CrestNiraj12/terminalrant/releases/download/v#{version}/terminalrant_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/CrestNiraj12/terminalrant/"
-      sha256 "c370c3703a199a1f485e89c69c4dc6e155ed3c280088a8d1bd9f621d166551ae"
+      sha256 "f45bbe5b5c473dbfd93eb1212cb25ec74b165904c2e605236f0efdbe1be3e226"
     end
   end
 
@@ -28,12 +28,12 @@ cask "terminalrant" do
     on_intel do
       url "https://github.com/CrestNiraj12/terminalrant/releases/download/v#{version}/terminalrant_#{version}_linux_amd64.tar.gz",
         verified: "github.com/CrestNiraj12/terminalrant/"
-      sha256 "153e5dfb77433ca94914a5a35616f566f5a0e12c1c6901fae0aa773cd6c29333"
+      sha256 "c45d56f0ce7cd686637876b3890464bf173ba34729e541e1be8d1e1439a94360"
     end
     on_arm do
       url "https://github.com/CrestNiraj12/terminalrant/releases/download/v#{version}/terminalrant_#{version}_linux_arm64.tar.gz",
         verified: "github.com/CrestNiraj12/terminalrant/"
-      sha256 "f882dd0a505c9dc54c87ba191a068c9f50238ae142afa6246c64c031f5f694a8"
+      sha256 "ed6a1603e8a4dd878a4ab43c1db3c2f701ff06e96e46ab85ce2239e10e8c501c"
     end
   end
 
